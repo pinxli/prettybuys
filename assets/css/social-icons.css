@@ -1,0 +1,306 @@
+
+[class^="social-"], [class*="social-"] {
+    background-image: url("../img/ico/social-icons-set.png");
+    background-position: 40px 40px;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    transition: all 0.3s ease-in-out 0s;
+    vertical-align: text-top;
+    width: 40px;
+}
+@media not all, (min-resolution: 192dpi) {
+[class^="social-"], [class*="social-"] {
+    background-image: url("../img/icons/social-icons-set@2x.png");
+    background-position: 40px 40px;
+    background-repeat: no-repeat;
+    background-size: 400px 320px;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: text-top;
+    width: 40px;
+}
+}
+.social-forrst {
+    background-position: 0 0;
+}
+.social-forrst:hover {
+    background-color: #5B9A68;
+    background-position: 0 -40px;
+}
+.social-dribbble {
+    background-position: -40px 0;
+}
+.social-dribbble:hover {
+    background-color: #EF5B92;
+    background-position: -40px -40px;
+}
+.social-twitter {
+    background-position: -80px 0;
+}
+.social-twitter:hover {
+    background-color: #48C4D2;
+    background-position: -80px -40px;
+}
+.social-flickr {
+    background-position: -120px 0;
+}
+.social-flickr:hover {
+    background-color: #F1628B;
+    background-position: -120px -40px;
+}
+.social-twitter2 {
+    background-position: -160px 0;
+}
+.social-twitter2:hover {
+    background-color: #48C4D2;
+    background-position: -160px -40px;
+}
+.social-facebook {
+    background-position: -200px 0;
+}
+.social-facebook:hover {
+    background-color: #3B5998;
+    background-position: -200px -40px;
+}
+.social-skype {
+    background-position: -240px 0;
+}
+.social-skype:hover {
+    background-color: #18B7F1;
+    background-position: -240px -40px;
+}
+.social-digg {
+    background-position: -280px 0;
+}
+.social-digg:hover {
+    background-color: #2882C6;
+    background-position: -280px -40px;
+}
+.social-google {
+    background-position: -320px 0;
+}
+.social-google:hover {
+    background-color: #DD4B39;
+    background-position: -320px -40px;
+}
+.social-html5 {
+    background-position: -360px 0;
+}
+.social-html5:hover {
+    background-color: #F3642C;
+    background-position: -360px -40px;
+}
+.social-linkedin {
+    background-position: 0 -80px;
+}
+.social-linkedin:hover {
+    background-color: #71B2D0;
+    background-position: 0 -120px;
+}
+.social-lastfm {
+    background-position: -40px -80px;
+}
+.social-lastfm:hover {
+    background-color: #D21309;
+    background-position: -40px -120px;
+}
+.social-vimeo {
+    background-position: -80px -80px;
+}
+.social-vimeo:hover {
+    background-color: #62A0AD;
+    background-position: -80px -120px;
+}
+.social-yahoo {
+    background-position: -120px -80px;
+}
+.social-yahoo:hover {
+    background-color: #AB64BC;
+    background-position: -120px -120px;
+}
+.social-tumblr {
+    background-position: -160px -80px;
+}
+.social-tumblr:hover {
+    background-color: #3A5976;
+    background-position: -160px -120px;
+}
+.social-apple {
+    background-position: -200px -80px;
+}
+.social-apple:hover {
+    background-color: #606060;
+    background-position: -200px -120px;
+}
+.social-microsoft {
+    background-position: -240px -80px;
+}
+.social-microsoft:hover {
+    background-color: #230565;
+    background-position: -240px -120px;
+}
+.social-youtube {
+    background-position: -280px -80px;
+}
+.social-youtube:hover {
+    background-color: #F45750;
+    background-position: -280px -120px;
+}
+.social-delicious {
+    background-position: -320px -80px;
+}
+.social-delicious:hover {
+    background-color: #3274D1;
+    background-position: -320px -120px;
+}
+.social-rss {
+    background-position: -360px -80px;
+}
+.social-rss:hover {
+    background-color: #FE9900;
+    background-position: -360px -120px;
+}
+.social-picassa {
+    background-position: 0 -160px;
+}
+.social-picassa:hover {
+    background-color: #444444;
+    background-position: 0 -200px;
+}
+.social-deviantart {
+    background-position: -40px -160px;
+}
+.social-deviantart:hover {
+    background-color: #D0DE21;
+    background-position: -40px -200px;
+}
+.social-technorati {
+    background-position: -80px -160px;
+}
+.social-technorati:hover {
+    background-color: #7AC84F;
+    background-position: -80px -200px;
+}
+.social-stumbleupon {
+    background-position: -120px -160px;
+}
+.social-stumbleupon:hover {
+    background-color: #EB4924;
+    background-position: -120px -200px;
+}
+.social-blogger {
+    background-position: -160px -160px;
+}
+.social-blogger:hover {
+    background-color: #FB913F;
+    background-position: -160px -200px;
+}
+.social-wordpress {
+    background-position: -200px -160px;
+}
+.social-wordpress:hover {
+    background-color: #464646;
+    background-position: -200px -200px;
+}
+.social-amazon {
+    background-position: -240px -160px;
+}
+.social-amazon:hover {
+    background-color: #2F3842;
+    background-position: -240px -200px;
+}
+.social-appstore {
+    background-position: -280px -160px;
+}
+.social-appstore:hover {
+    background-color: #0F73E4;
+    background-position: -280px -200px;
+}
+.social-paypal {
+    background-position: -320px -160px;
+}
+.social-paypal:hover {
+    background-color: #32689A;
+    background-position: -320px -200px;
+}
+.social-myspace {
+    background-position: -360px -160px;
+}
+.social-myspace:hover {
+    background-color: #003398;
+    background-position: -360px -200px;
+}
+.social-dropbox {
+    background-position: 0 -240px;
+}
+.social-dropbox:hover {
+    background-color: #3083C7;
+    background-position: 0 -280px;
+}
+.social-windows {
+    background-position: -40px -240px;
+}
+.social-windows:hover {
+    background-color: #01AEF3;
+    background-position: -40px -280px;
+}
+.social-pinterest {
+    background-position: -80px -240px;
+}
+.social-pinterest:hover {
+    background-color: #CB2027;
+    background-position: -80px -280px;
+}
+.social-soundcloud {
+    background-position: -120px -240px;
+}
+.social-soundcloud:hover {
+    background-color: #FF680D;
+    background-position: -120px -280px;
+}
+.social-googledrive {
+    background-position: -160px -240px;
+}
+.social-googledrive:hover {
+    background-color: #FFCF63;
+    background-position: -160px -280px;
+}
+.social-android {
+    background-position: -200px -240px;
+}
+.social-android:hover {
+    background-color: #A6C53B;
+    background-position: -200px -280px;
+}
+.social-behance {
+    background-position: -240px -240px;
+}
+.social-behance:hover {
+    background-color: #18A3FE;
+    background-position: -240px -280px;
+}
+.social-instagram {
+    background-position: -280px -240px;
+}
+.social-instagram:hover {
+    background-color: #E2D6C6;
+    background-position: -280px -280px;
+}
+.social-ebay {
+    background-position: -320px -240px;
+}
+.social-ebay:hover {
+    background-color: #FE0000;
+    background-position: -320px -280px;
+}
+.social-googleplus {
+    background-position: -360px -240px;
+}
+.social-googleplus:hover {
+    background-color: #D94A39;
+    background-position: -360px -280px;
+}

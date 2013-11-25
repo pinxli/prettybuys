@@ -89,7 +89,7 @@
 				<!-- start: Owner -->
 				<div id="owner" class="span6">
 					
-					&copy; 2013, <a href="http://bootstrapmaster.com" alt="Bootstrap Themes">creativeLabs</a>. Designed by <a href="http://bootstrapmaster.com" alt="Bootstrap Templates">Bootstrap Master</a> in Poland <img src="img/poland.png" class="img-retina" alt="Poland" style="margin-top:-4px">
+					&copy; 2013, <a href="http://bootstrapmaster.com" alt="Bootstrap Themes">creativeLabs</a>. Designed by <a href="http://bootstrapmaster.com" alt="Bootstrap Templates">Bootstrap Master</a> in Poland <img src="assets/img/poland.png" class="img-retina" alt="Poland" style="margin-top:-4px">
 					
 				</div>
 				<!-- end: Owner -->

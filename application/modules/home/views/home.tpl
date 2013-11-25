@@ -20,7 +20,7 @@
 							<span>ONE Bootstrap Theme</span>
 						</h2>
 						
-						<img class="ls-s3 img-retina" src="img/macbook.png" alt="slider" style=" position: absolute; top:30px; left: 400px; slidedirection : top; delayin : 500;">
+						<img class="ls-s3 img-retina" src="assets/img/macbook.png" alt="slider" style=" position: absolute; top:30px; left: 400px; slidedirection : top; delayin : 500;">
 
 						<h3  class="ls-s2" style="top:230px; left: 0px; slidedirection : bottom; slideoutdirection : left; durationin : 2000; durationout : 1000; easingin : easeOutElastic; easingout : easeInOutQuint; delayin : 1000; showuntil : 2000;">
 							probably the best bootstrap theme
@@ -46,11 +46,11 @@
 					<!-- start: 2nd Slide -->
 					<div class="ls-layer layer2" style="slidedirection: right; slidedelay: 4000;">
 						
-						<img class="ls-s1 img-retina" src="img/responsive-ipad-black.png" alt="slider" style="position: absolute; z-index: -1; top: 10px; left: 50px; slidedirection : right; slideoutdirection : left;  delayin : 500; showuntil : 3000; ">
+						<img class="ls-s1 img-retina" src="assets/img/responsive-ipad-black.png" alt="slider" style="position: absolute; z-index: -1; top: 10px; left: 50px; slidedirection : right; slideoutdirection : left;  delayin : 500; showuntil : 3000; ">
 
-						<img class="ls-s2 img-retina" src="img/responsive-iphone-black.png" alt="slider" style="position: absolute; top: 10px; left: 50px; slidedirection : right; slideoutdirection : left;  delayin : 1000; showuntil : 3100; ">
+						<img class="ls-s2 img-retina" src="assets/img/responsive-iphone-black.png" alt="slider" style="position: absolute; top: 10px; left: 50px; slidedirection : right; slideoutdirection : left;  delayin : 1000; showuntil : 3100; ">
 						
-						<img class="ls-s3 img-retina" src="img/responsive-iphone-white.png" alt="slider" style="position: absolute; top: 10px; left: 50px; slidedirection : right; slideoutdirection : left;  delayin : 1500; showuntil : 3200; ">
+						<img class="ls-s3 img-retina" src="assets/img/responsive-iphone-white.png" alt="slider" style="position: absolute; top: 10px; left: 50px; slidedirection : right; slideoutdirection : left;  delayin : 1500; showuntil : 3200; ">
 
 						<h1 class="ls-s4" style="top:130px; left: 490px; slidedirection : left; showuntil : 3200;">
 							Responsive Design
@@ -72,9 +72,9 @@
 					<!-- start: 3rd Slide -->
 					<div class="ls-layer" style="slidedirection: right; slidedelay: 4000;">
 
-						<img class="ls-s1 img-retina" src="img/retina-black.png" alt="slider" style="position: absolute; top: 20px; left: 450px; slidedirection : right; slideoutdirection : right;">
+						<img class="ls-s1 img-retina" src="assets/img/retina-black.png" alt="slider" style="position: absolute; top: 20px; left: 450px; slidedirection : right; slideoutdirection : right;">
 						
-						<img class="ls-s2 img-retina" src="img/retina-white.png" alt="slider" style="position: absolute; top: 25px; left: 450px; slidedirection : right; slideoutdirection : right; delayin : 200;">
+						<img class="ls-s2 img-retina" src="assets/img/retina-white.png" alt="slider" style="position: absolute; top: 25px; left: 450px; slidedirection : right; slideoutdirection : right; delayin : 200;">
 
 						<h1 class="ls-s3" style="top:100px; left: 40px; slidedirection : left;">
 							Retina and High Resolutions
