@@ -91,10 +91,10 @@
 	                  				<li><a href="about.html">About Us</a></li>
 									<li><a href="portfolio.html">Portfolio</a></li>
 									<li><a href="portfolio-alt.html">Portfolio Alternative</a></li>
-									<li><a href="login.html">Login</a></li>
-									<li><a href="register.html">Register</a></li>
-									<li><a href="login-alt.html">Login Alternative</a></li>
-									<li><a href="register-alt.html">Register Alternative</a></li>
+									<li><a href="{$baseUrl}login">Login</a></li>
+									<li><a href="{$baseUrl}register">Register</a></li>
+									<li><a href="{$baseUrl}login">Login Alternative</a></li>
+									<li><a href="{$baseUrl}register">Register Alternative</a></li>
 	                			</ul>
 	              			</li>
 	            		</ul>

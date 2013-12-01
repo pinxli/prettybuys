@@ -19,6 +19,18 @@ class Projects extends CI_Controller
 		
 		$this->load->view($this->globalTpl, $data);	
 	}
+	
+	public function viewproject()
+	{
+		$data['mainContent'] = 'view.tpl';
+		
+		$data['data'] = array(
+			'baseUrl'	=> base_url(),
+			'title'		=> 'View Projects'
+		);
+		
+		$this->load->view($this->globalTpl, $data);	
+	}
 }
 
 /* End of file welcome.php */

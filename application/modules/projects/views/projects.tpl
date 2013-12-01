@@ -59,7 +59,7 @@
 						<div class="overlay">
 							<div class="actions">
 								<a class="search fancybox" href="{$baseUrl}assets/img/projects/2.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
+								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
 								<p>
@@ -78,7 +78,7 @@
 						<div class="overlay">
 							<div class="actions">
 								<a class="search fancybox" href="{$baseUrl}assets/img/projects/3.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
+								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
 								<p>
@@ -97,7 +97,7 @@
 						<div class="overlay">
 							<div class="actions">
 								<a class="search fancybox" href="{$baseUrl}assets/img/projects/4.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
+								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
 								<p>
@@ -115,7 +115,7 @@
 						<div class="overlay">
 							<div class="actions">
 								<a class="search fancybox" href="{$baseUrl}assets/img/projects/5.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
+								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
 								<p>
@@ -133,7 +133,7 @@
 						<div class="overlay">
 							<div class="actions">
 								<a class="search fancybox" href="{$baseUrl}assets/img/projects/6.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
+								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
 								<p>
@@ -151,7 +151,7 @@
 						<div class="overlay">
 							<div class="actions">
 								<a class="search fancybox" href="{$baseUrl}assets/img/projects/7.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
+								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
 								<p>
@@ -169,7 +169,7 @@
 						<div class="overlay">
 							<div class="actions">
 								<a class="search fancybox" href="{$baseUrl}assets/img/projects/8.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
+								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
 								<p>
@@ -187,7 +187,7 @@
 						<div class="overlay">
 							<div class="actions">
 								<a class="search fancybox" href="{$baseUrl}assets/img/projects/9.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
+								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
 								<p>
@@ -205,7 +205,7 @@
 						<div class="overlay">
 							<div class="actions">
 								<a class="search fancybox" href="{$baseUrl}assets/img/projects/10.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
+								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
 								<p>
@@ -223,7 +223,7 @@
 						<div class="overlay">
 							<div class="actions">
 								<a class="search fancybox" href="{$baseUrl}assets/img/projects/11.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
+								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
 								<p>
@@ -241,7 +241,7 @@
 						<div class="overlay">
 							<div class="actions">
 								<a class="search fancybox" href="{$baseUrl}assets/img/projects/12.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
+								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
 								<p>
