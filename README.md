@@ -1,4 +1,4 @@
 prettybuys
 ==========
 
-This project is for the Pretty Buys front end
+This project is for Pretty Buys front end
