@@ -1,5 +1,5 @@
 /*
-* Author: Åukasz Holeczek
+* Author: 
 * Template: One Bootstrap Theme
 * Version: 1.0.3 CSS & LESS
 * Bootstrap version: 2.3.2
@@ -424,7 +424,6 @@ ul.clients-list li:last-child {
 #filters {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	font-size: 22px;
 	text-align: center;
 	right: 0;
 	margin: -100px 0 0px 0;
