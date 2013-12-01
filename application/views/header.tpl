@@ -4,10 +4,9 @@
 
 	<!-- start: Meta -->
 	<meta charset="utf-8">
-	<title>ONE BOOTSTRAP THEME by creativeLabs</title> 
+	<title>Prettybuys Awesome Deals</title> 
 	<meta name="description" content="ONE Bootstrap Theme is incredibly powerfull and responsive template with modern and ONE design. ONE has many great features like: awesome LayerSlider 4 ($50), FlexSlider 2, 400+ Glyphicons PRO ($59), 200+ Font Awesome Icons, Social Icons, Charts, Retina Display Support and many. If you buy now ONE Bootstrap Theme you save $94."/>
 	<meta name="keywords" content="Bootstrap Theme, Bootstrap Template, Bootstrap, Responsive Theme, Responsive Template, Retina Display, ONE Design, Glyphicons, LayerSlider, FlexSlider, Font Awesome, Icons, Portfolio, Business, WrapBootstrap, Responsive" />
-	<meta name="author" content="Łukasz Holeczek from creativeLabs"/>
 	<!-- end: Meta -->
 	
 	<!-- start: Mobile Specific -->
@@ -64,17 +63,17 @@
 	            		<span class="icon-bar"></span>
 	            		<span class="icon-bar"></span>
 	          		</a>
-					<a class="brand" href="index.html">ONE</a>
+					<a class="brand" href="">PrettyBuys</a>
 	          		<div class="nav-collapse collapse">
 	            		<ul class="nav scroll-nav">
-							<li class="active"><a href="{$baseUrl}">Home</a></li>
-								              			<li><a class="scroll" href="#about">About</a></li>
+							<li><a href="{$baseUrl}">Home</a></li>
+							<li><a class="scroll" href="#about">About</a></li>
 							<li><a class="scroll" href="#team">Team</a></li>
 							<li><a class="scroll" href="#pricing">Pricing</a></li>
 							<li><a class="scroll" href="projects/">Projects</a></li>
 							<li><a class="scroll" href="#blog">Blog</a></li>
 							<li><a class="scroll" href="#contact">Contact</a></li>
-														<li class="dropdown">
+							<li class="dropdown">
 	                			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Features<b class="caret"></b></a>
 	                			<ul class="dropdown-menu">
 	                  				<li><a href="social-icons.html">Social Icons</a></li>

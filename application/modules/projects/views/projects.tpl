@@ -8,7 +8,7 @@
 			<!-- start: Container -->
 			<div class="container">
 				
-				<h2>projects</h2>
+				<h2>Awesome Deals</h2>
 
 			</div>
 			<!-- end: Container -->
@@ -23,10 +23,10 @@
 			<div id="filters">
 				<ul class="option-set" data-option-key="filter">
 					<li><a href="#filter" class="selected" data-option-value="*">All</a></li>
-					<li><a href="#filter" data-option-value=".nature">Nature</a></li>
-					<li><a href="#filter" data-option-value=".people">People</a></li>
-					<li><a href="#filter" data-option-value=".scenery">Scenery</a></li>
-					<li><a href="#filter" data-option-value=".world">World</a></li>
+					{foreach from=$productTypeList item=typelist}
+					<li><a href="#filter" data-option-value=".{$typelist->url_slug}">{$typelist->product_type}</a></li>
+					{/foreach}
+					
 				</ul>
 			</div>
 			<!-- end: Filter Section -->
@@ -34,223 +34,26 @@
 			<!-- start: Portfolio -->
 			<div id="wall">
 
-				<div class="item nature people">
-					<div class="title">Project Title</div>
+				{foreach from=$productList item=product}
+				<div class="item {$product->url_slug}">
+					<div class="title">{$product->product_name}</div>
 					<div class="picture">
-						<img src="{$baseUrl}assets/img/projects/1.jpg" alt=""/>
+						<img src="{$baseUrl}assets/img/productImg/{$product->product_icon}" alt=""/>
 						<div class="overlay">
 							<div class="actions">
-								<a href="{$baseUrl}assets/img/projects/1.jpg" class="search fancybox"><i class="icon-search"></i></a>
-								<a class="link"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
+								<a href="{$baseUrl}assets/img/productImg/{$product->product_icon}" class="search fancybox"><i class="icon-search"></i></a>
+								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="{$product->product_name}"></i></a>
 							</div>
 							<div class="description">
 								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+									{$product->product_name}
 								</p>
 							</div>
 						</div>
 					</div>	
 				</div>
-
-				<div class="item scenery">
-					<div class="title">Project Title</div>
-					<div class="picture">
-						<img src="{$baseUrl}assets/img/projects/2.jpg" alt=""/>
-						<div class="overlay">
-							<div class="actions">
-								<a class="search fancybox" href="{$baseUrl}assets/img/projects/2.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
-							</div>
-							<div class="description">
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-								</p>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-				<div class="item scenery">
-					<div class="title">Project Title</div>
-					<div class="picture">
-						<img src="{$baseUrl}assets/img/projects/3.jpg" alt=""/>
-						<div class="overlay">
-							<div class="actions">
-								<a class="search fancybox" href="{$baseUrl}assets/img/projects/3.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
-							</div>
-							<div class="description">
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-								</p>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-				<div class="item world scenery">
-					<div class="title">Project Title</div>
-					<div class="picture">
-						<img src="{$baseUrl}assets/img/projects/4.jpg" alt=""/>
-						<div class="overlay">
-							<div class="actions">
-								<a class="search fancybox" href="{$baseUrl}assets/img/projects/4.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
-							</div>
-							<div class="description">
-								<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="item world scenery">
-					<div class="title">Project Title</div>
-					<div class="picture">
-						<img src="{$baseUrl}assets/img/projects/5.jpg" alt=""/>
-						<div class="overlay">
-							<div class="actions">
-								<a class="search fancybox" href="{$baseUrl}assets/img/projects/5.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
-							</div>
-							<div class="description">
-								<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="item nature scenery">
-					<div class="title">Project Title</div>
-					<div class="picture">
-						<img src="{$baseUrl}assets/img/projects/6.jpg" alt=""/>
-						<div class="overlay">
-							<div class="actions">
-								<a class="search fancybox" href="{$baseUrl}assets/img/projects/6.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
-							</div>
-							<div class="description">
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="item world">
-					<div class="title">Project Title</div>
-					<div class="picture">
-						<img src="{$baseUrl}assets/img/projects/7.jpg" alt=""/>
-						<div class="overlay">
-							<div class="actions">
-								<a class="search fancybox" href="{$baseUrl}assets/img/projects/7.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
-							</div>
-							<div class="description">
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
-								</p>
-							</div>
-						</div>	
-					</div>
-				</div>
-
-				<div class="item world people">
-					<div class="title">Project Title</div>
-					<div class="picture">
-						<img src="{$baseUrl}assets/img/projects/8.jpg" alt=""/>
-						<div class="overlay">
-							<div class="actions">
-								<a class="search fancybox" href="{$baseUrl}assets/img/projects/8.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
-							</div>
-							<div class="description">
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="item world people">
-					<div class="title">Project Title</div>
-					<div class="picture">
-						<img src="{$baseUrl}assets/img/projects/9.jpg" alt=""/>
-						<div class="overlay">
-							<div class="actions">
-								<a class="search fancybox" href="{$baseUrl}assets/img/projects/9.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
-							</div>
-							<div class="description">
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="item world people">
-					<div class="title">Project Title</div>
-					<div class="picture">
-						<img src="{$baseUrl}assets/img/projects/10.jpg" alt=""/>
-						<div class="overlay">
-							<div class="actions">
-								<a class="search fancybox" href="{$baseUrl}assets/img/projects/10.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
-							</div>
-							<div class="description">
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="item world people">
-					<div class="title">Project Title</div>
-					<div class="picture">
-						<img src="{$baseUrl}assets/img/projects/11.jpg" alt=""/>
-						<div class="overlay">
-							<div class="actions">
-								<a class="search fancybox" href="{$baseUrl}assets/img/projects/11.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
-							</div>
-							<div class="description">
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="item world people">
-					<div class="title">Project Title</div>
-					<div class="picture">
-						<img src="{$baseUrl}assets/img/projects/12.jpg" alt=""/>
-						<div class="overlay">
-							<div class="actions">
-								<a class="search fancybox" href="{$baseUrl}assets/img/projects/12.jpg"><i class="icon-search"></i></a>
-								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
-							</div>
-							<div class="description">
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
+				{/foreach}
+				
 
 			</div>
 			<!-- end: Portfolio -->

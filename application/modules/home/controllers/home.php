@@ -10,7 +10,7 @@ class Home extends CI_Controller
 
 	public function index()
 	{
-		$data['mainContent'] = 'home.tpl';
+		$data['mainContent'] = 'home.tpl';		
 		
 		$data['data'] = array(
 			'baseUrl'	=> base_url(),

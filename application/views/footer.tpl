@@ -157,7 +157,7 @@
 <script src="{$baseUrl}assets/js/layerslider.transitions.js"></script>
 <script src="{$baseUrl}assets/js/layerslider.kreaturamedia.jquery.js"></script>
 
-<script src="{$baseUrl}http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 <script src="{$baseUrl}assets/js/jquery.gmap.min.js"></script>
 
 <script src="{$baseUrl}assets/js/less-1.3.3.min.js"></script>

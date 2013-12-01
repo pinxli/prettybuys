@@ -12,9 +12,14 @@ class Projects extends CI_Controller
 	{
 		$data['mainContent'] = 'projects.tpl';
 		
+		$productList 	 = $this->home_model->productList();
+		$producttypeList = $this->home_model->productTypeList();
+		
 		$data['data'] = array(
-			'baseUrl'	=> base_url(),
-			'title'		=> 'Projects'
+			'baseUrl'			=> base_url(),
+			'title'				=> 'Projects',
+			'productList'		=> $productList->data->productlist,
+			'productTypeList'	=> $producttypeList->data->producttypelist,
 		);
 		
 		$this->load->view($this->globalTpl, $data);	
