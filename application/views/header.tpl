@@ -71,7 +71,7 @@
 								              			<li><a class="scroll" href="#about">About</a></li>
 							<li><a class="scroll" href="#team">Team</a></li>
 							<li><a class="scroll" href="#pricing">Pricing</a></li>
-							<li><a class="scroll" href="#projects">Projects</a></li>
+							<li><a class="scroll" href="projects/">Projects</a></li>
 							<li><a class="scroll" href="#blog">Blog</a></li>
 							<li><a class="scroll" href="#contact">Contact</a></li>
 														<li class="dropdown">
