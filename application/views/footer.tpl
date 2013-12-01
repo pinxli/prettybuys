@@ -142,28 +142,28 @@
 
 <!-- start: Java Script -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="assets/js/jquery-1.10.2.min.js"></script>
-<script src="assets/js/jquery.isotope.min.js"></script>
-<script src="assets/js/jquery.imagesloaded.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/flexslider.js"></script>
-<script src="assets/js/carousel.js"></script>
-<script src="assets/js/jquery.fancybox.js"></script>
-<script src="assets/js/twitter.js"></script>
-<script src="assets/js/jquery.placeholder.min.js"></script>
+<script src="{$baseUrl}assets/js/jquery-1.10.2.min.js"></script>
+<script src="{$baseUrl}assets/js/jquery.isotope.min.js"></script>
+<script src="{$baseUrl}assets/js/jquery.imagesloaded.js"></script>
+<script src="{$baseUrl}assets/js/bootstrap.min.js"></script>
+<script src="{$baseUrl}assets/js/flexslider.js"></script>
+<script src="{$baseUrl}assets/js/carousel.js"></script>
+<script src="{$baseUrl}assets/js/jquery.fancybox.js"></script>
+<script src="{$baseUrl}assets/js/twitter.js"></script>
+<script src="{$baseUrl}assets/js/jquery.placeholder.min.js"></script>
 
-<script src="assets/js/jquery-easing-1.3.js"></script>
-<script src="assets/js/jquery-transit-modified.js"></script>
-<script src="assets/js/layerslider.transitions.js"></script>
-<script src="assets/js/layerslider.kreaturamedia.jquery.js"></script>
+<script src="{$baseUrl}assets/js/jquery-easing-1.3.js"></script>
+<script src="{$baseUrl}assets/js/jquery-transit-modified.js"></script>
+<script src="{$baseUrl}assets/js/layerslider.transitions.js"></script>
+<script src="{$baseUrl}assets/js/layerslider.kreaturamedia.jquery.js"></script>
 
-<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-<script src="assets/js/jquery.gmap.min.js"></script>
+<script src="{$baseUrl}http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="{$baseUrl}assets/js/jquery.gmap.min.js"></script>
 
-<script src="assets/js/less-1.3.3.min.js"></script>
+<script src="{$baseUrl}assets/js/less-1.3.3.min.js"></script>
 
-<script defer="defer" src="assets/js/modernizr.js"></script>
-<script defer="defer" src="assets/js/custom.js"></script>
+<script defer="defer" src="{$baseUrl}assets/js/modernizr.js"></script>
+<script defer="defer" src="{$baseUrl}assets/js/custom.js"></script>
 <!-- end: Java Script -->
 
 </body>

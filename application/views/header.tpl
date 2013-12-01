@@ -23,10 +23,10 @@
 	<!-- end: Facebook Open Graph -->
 
     <!-- start: CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
-	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
-	<link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css">
+    <link href="{$baseUrl}assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="{$baseUrl}assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+	<link href="{$baseUrl}assets/css/style.css" rel="stylesheet" type="text/css">
+	<link href="{$baseUrl}assets/css/style-responsive.css" rel="stylesheet" type="text/css">
 	
 	<!--[if lt IE 9 ]>
 	  <link href="css/styleIE.css" rel="stylesheet">
@@ -40,11 +40,11 @@
     <![endif]-->
 	
 	<!-- start: Favicon and Touch Icons -->
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/ico/apple-touch-icon-144-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/img/ico/apple-touch-icon-114-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/ico/apple-touch-icon-72-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" href="assets/img/ico/apple-touch-icon-57-precomposed.png">
-	<link rel="shortcut icon" href="assets/img/ico/favicon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{$baseUrl}assets/img/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{$baseUrl}assets/img/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{$baseUrl}assets/img/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="{$baseUrl}assets/img/ico/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" href="{$baseUrl}assets/img/ico/favicon.png">
 	<!-- end: Favicon and Touch Icons -->
 
 </head>
@@ -67,7 +67,7 @@
 					<a class="brand" href="index.html">ONE</a>
 	          		<div class="nav-collapse collapse">
 	            		<ul class="nav scroll-nav">
-							<li class="active"><a href="index.html">Home</a></li>
+							<li class="active"><a href="{$baseUrl}">Home</a></li>
 								              			<li><a class="scroll" href="#about">About</a></li>
 							<li><a class="scroll" href="#team">Team</a></li>
 							<li><a class="scroll" href="#pricing">Pricing</a></li>

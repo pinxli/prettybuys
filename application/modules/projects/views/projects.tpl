@@ -37,10 +37,10 @@
 				<div class="item nature people">
 					<div class="title">Project Title</div>
 					<div class="picture">
-						<img src="assets/img/projects/1.jpg" alt=""/>
+						<img src="{$baseUrl}assets/img/projects/1.jpg" alt=""/>
 						<div class="overlay">
 							<div class="actions">
-								<a href="assets/img/projects/1.jpg" class="search fancybox"><i class="icon-search"></i></a>
+								<a href="{$baseUrl}assets/img/projects/1.jpg" class="search fancybox"><i class="icon-search"></i></a>
 								<a class="link"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
@@ -55,10 +55,10 @@
 				<div class="item scenery">
 					<div class="title">Project Title</div>
 					<div class="picture">
-						<img src="assets/img/projects/2.jpg" alt=""/>
+						<img src="{$baseUrl}assets/img/projects/2.jpg" alt=""/>
 						<div class="overlay">
 							<div class="actions">
-								<a class="search fancybox" href="assets/img/projects/2.jpg"><i class="icon-search"></i></a>
+								<a class="search fancybox" href="{$baseUrl}assets/img/projects/2.jpg"><i class="icon-search"></i></a>
 								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
@@ -74,10 +74,10 @@
 				<div class="item scenery">
 					<div class="title">Project Title</div>
 					<div class="picture">
-						<img src="assets/img/projects/3.jpg" alt=""/>
+						<img src="{$baseUrl}assets/img/projects/3.jpg" alt=""/>
 						<div class="overlay">
 							<div class="actions">
-								<a class="search fancybox" href="assets/img/projects/3.jpg"><i class="icon-search"></i></a>
+								<a class="search fancybox" href="{$baseUrl}assets/img/projects/3.jpg"><i class="icon-search"></i></a>
 								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
@@ -93,10 +93,10 @@
 				<div class="item world scenery">
 					<div class="title">Project Title</div>
 					<div class="picture">
-						<img src="assets/img/projects/4.jpg" alt=""/>
+						<img src="{$baseUrl}assets/img/projects/4.jpg" alt=""/>
 						<div class="overlay">
 							<div class="actions">
-								<a class="search fancybox" href="assets/img/projects/4.jpg"><i class="icon-search"></i></a>
+								<a class="search fancybox" href="{$baseUrl}assets/img/projects/4.jpg"><i class="icon-search"></i></a>
 								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
@@ -111,10 +111,10 @@
 				<div class="item world scenery">
 					<div class="title">Project Title</div>
 					<div class="picture">
-						<img src="assets/img/projects/5.jpg" alt=""/>
+						<img src="{$baseUrl}assets/img/projects/5.jpg" alt=""/>
 						<div class="overlay">
 							<div class="actions">
-								<a class="search fancybox" href="assets/img/projects/5.jpg"><i class="icon-search"></i></a>
+								<a class="search fancybox" href="{$baseUrl}assets/img/projects/5.jpg"><i class="icon-search"></i></a>
 								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
@@ -129,10 +129,10 @@
 				<div class="item nature scenery">
 					<div class="title">Project Title</div>
 					<div class="picture">
-						<img src="assets/img/projects/6.jpg" alt=""/>
+						<img src="{$baseUrl}assets/img/projects/6.jpg" alt=""/>
 						<div class="overlay">
 							<div class="actions">
-								<a class="search fancybox" href="assets/img/projects/6.jpg"><i class="icon-search"></i></a>
+								<a class="search fancybox" href="{$baseUrl}assets/img/projects/6.jpg"><i class="icon-search"></i></a>
 								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
@@ -147,10 +147,10 @@
 				<div class="item world">
 					<div class="title">Project Title</div>
 					<div class="picture">
-						<img src="assets/img/projects/7.jpg" alt=""/>
+						<img src="{$baseUrl}assets/img/projects/7.jpg" alt=""/>
 						<div class="overlay">
 							<div class="actions">
-								<a class="search fancybox" href="assets/img/projects/7.jpg"><i class="icon-search"></i></a>
+								<a class="search fancybox" href="{$baseUrl}assets/img/projects/7.jpg"><i class="icon-search"></i></a>
 								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
@@ -165,10 +165,10 @@
 				<div class="item world people">
 					<div class="title">Project Title</div>
 					<div class="picture">
-						<img src="assets/img/projects/8.jpg" alt=""/>
+						<img src="{$baseUrl}assets/img/projects/8.jpg" alt=""/>
 						<div class="overlay">
 							<div class="actions">
-								<a class="search fancybox" href="assets/img/projects/8.jpg"><i class="icon-search"></i></a>
+								<a class="search fancybox" href="{$baseUrl}assets/img/projects/8.jpg"><i class="icon-search"></i></a>
 								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
@@ -183,10 +183,10 @@
 				<div class="item world people">
 					<div class="title">Project Title</div>
 					<div class="picture">
-						<img src="assets/img/projects/9.jpg" alt=""/>
+						<img src="{$baseUrl}assets/img/projects/9.jpg" alt=""/>
 						<div class="overlay">
 							<div class="actions">
-								<a class="search fancybox" href="assets/img/projects/9.jpg"><i class="icon-search"></i></a>
+								<a class="search fancybox" href="{$baseUrl}assets/img/projects/9.jpg"><i class="icon-search"></i></a>
 								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
@@ -201,10 +201,10 @@
 				<div class="item world people">
 					<div class="title">Project Title</div>
 					<div class="picture">
-						<img src="assets/img/projects/10.jpg" alt=""/>
+						<img src="{$baseUrl}assets/img/projects/10.jpg" alt=""/>
 						<div class="overlay">
 							<div class="actions">
-								<a class="search fancybox" href="assets/img/projects/10.jpg"><i class="icon-search"></i></a>
+								<a class="search fancybox" href="{$baseUrl}assets/img/projects/10.jpg"><i class="icon-search"></i></a>
 								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
@@ -219,10 +219,10 @@
 				<div class="item world people">
 					<div class="title">Project Title</div>
 					<div class="picture">
-						<img src="assets/img/projects/11.jpg" alt=""/>
+						<img src="{$baseUrl}assets/img/projects/11.jpg" alt=""/>
 						<div class="overlay">
 							<div class="actions">
-								<a class="search fancybox" href="assets/img/projects/11.jpg"><i class="icon-search"></i></a>
+								<a class="search fancybox" href="{$baseUrl}assets/img/projects/11.jpg"><i class="icon-search"></i></a>
 								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
@@ -237,10 +237,10 @@
 				<div class="item world people">
 					<div class="title">Project Title</div>
 					<div class="picture">
-						<img src="assets/img/projects/12.jpg" alt=""/>
+						<img src="{$baseUrl}assets/img/projects/12.jpg" alt=""/>
 						<div class="overlay">
 							<div class="actions">
-								<a class="search fancybox" href="assets/img/projects/12.jpg"><i class="icon-search"></i></a>
+								<a class="search fancybox" href="{$baseUrl}assets/img/projects/12.jpg"><i class="icon-search"></i></a>
 								<a class="link" href="project.html"><i class="icon-link" title="ACME Dashboard Admin Template"></i></a>
 							</div>
 							<div class="description">
