@@ -60,6 +60,13 @@ jQuery(document).ready(function($) {
 				
 		}
 	}
+	
+	$('.countdown').downCount({
+            date: '12/03/2013 12:00:00',
+            offset: +10
+        }, function () {
+            alert('WOOT WOOT, done!');
+        });
 });
 
 /* -------------------- Fixed Menu --------------------- */
@@ -541,3 +548,4 @@ function widthFunctions(e) {
 	}
 	
 }
+

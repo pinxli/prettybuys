@@ -164,6 +164,8 @@
 
 <script defer="defer" src="{$baseUrl}assets/js/modernizr.js"></script>
 <script defer="defer" src="{$baseUrl}assets/js/custom.js"></script>
+<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+<script type="text/javascript" src="{$baseUrl}assets/js/jquery.downCount.js"></script>
 <!-- end: Java Script -->
 
 </body>
