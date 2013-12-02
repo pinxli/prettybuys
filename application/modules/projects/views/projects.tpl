@@ -44,9 +44,10 @@
 								<a href="{$baseUrl}assets/img/productImg/{$product->product_icon}" class="search fancybox"><i class="icon-search"></i></a>
 								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="{$product->product_name}"></i></a>
 							</div>
-							<div class="description"><br /><br /><br />
-									<ul class="countdown">
-									<li> <span class="days">00</span>
+							
+							<div class="actions">
+							<ul class="countdown">
+							<li> <span class="days">00</span>
 									<p class="days_ref">days</p>
 									</li>
 									<li class="seperator">.</li>
@@ -61,7 +62,11 @@
 									<li> <span class="seconds">00</span>
 									<p class="seconds_ref">seconds</p>
 									</li>
-									</ul>
+							</ul>
+							</div>
+							
+							<div class="description">
+						
 							</div>
 						</div>
 					</div>	

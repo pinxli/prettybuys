@@ -48,26 +48,30 @@ h1, h2, h3, h4, h5, h6 {
 /* Timer */
 ul.countdown {
 list-style: none;
-margin: 75px 0;
+margin: 10px 0;
 padding: 0;
 display: block;
 text-align: center;
 }
+
 ul.countdown li {
 display: inline-block;
 }
+
 ul.countdown li span {
-font-size: 50px;
-font-weight: 300;
-line-height: 80px;
+font-size: 30px;
+font-weight: 10;
+line-height: 30px;
 }
+
 ul.countdown li.seperator {
-font-size: 50px;
-line-height: 70px;
+font-size: 30px;
+line-height: 30px;
 vertical-align: top;
 }
+
 ul.countdown li p {
-color: #a7abb1;
+color: #fffff;
 font-size: 14px;
 }
 	
