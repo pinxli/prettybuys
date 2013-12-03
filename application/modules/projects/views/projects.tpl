@@ -44,9 +44,9 @@
 								<a href="{$baseUrl}assets/img/productImg/{$product->product_icon}" class="search fancybox"><i class="icon-search"></i></a>
 								<a class="link" href="{$baseUrl}projects/viewproject"><i class="icon-link" title="{$product->product_name}"></i></a>
 							</div>
-							
-							<div class="actions">
-							<ul class="countdown">
+													
+							<div class="actions countdowntimer" expiry_date="{$product->expiry_date|date_format:'%D %T'}" productId="{$product->product_id}">
+							<ul class="countdown" id="{$product->product_id}">
 							<li> <span class="days">00</span>
 									<p class="days_ref">days</p>
 									</li>

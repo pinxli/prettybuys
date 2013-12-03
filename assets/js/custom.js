@@ -61,18 +61,32 @@ jQuery(document).ready(function($) {
 		}
 	}
 	
-	$('.countdown').downCount({
-            date: '12/03/2013 12:00:00',
+	
+	$('.countdowntimer').each(function(){
+		var expiry 		= $(this).attr('expiry_date');
+		var productId 	= $(this).attr('productId');
+		
+		$('#' + productId).downCount({
+            date: expiry,
             offset: +10
         }, function () {
             alert('WOOT WOOT, done!');
         });
+	});
+	
+
 });
 
 /* -------------------- Fixed Menu --------------------- */
 $(window).scroll(function($){
 	fixedMenu();			
 });
+
+function countDown(timer)
+{
+
+}
+
 
 function fixedMenu() {
 	
